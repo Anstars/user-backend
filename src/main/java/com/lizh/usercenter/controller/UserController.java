@@ -34,7 +34,7 @@ import static com.lizh.usercenter.contant.UserContant.USER_LOGIN_STATE;
  */
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = {"http://47.120.13.47"},methods = {RequestMethod.DELETE})
+//@CrossOrigin(origins = {"http://47.120.13.47"},methods = {RequestMethod.DELETE})
 public class UserController {
 
     @Resource
